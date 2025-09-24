@@ -1,0 +1,42 @@
+
+    /* Center the whole block */
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+    }
+    .dropdown-group {
+      display: flex;
+      flex-direction: column;
+      margin: 20px 0;
+      max-width: 300px;
+      width: 100%;
+    }
+    .dropdown-group label {
+      font-weight: bold;
+      margin-bottom: 8px;
+      font-size: 16px;
+      color: #333;
+      text-align: center;
+    }
+    .dropdown-group select {
+      padding: 10px 15px;
+      font-size: 15px;
+      border: none;
+      border-radius: 6px;
+      background-color: #f8f9fa;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      appearance: none; 
+      width: 350px;   
+    }
+    .dropdown-group select:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 5px rgba(0,123,255,0.5);
+      outline: none;
+    }
+    .dropdown-group select option {
+      padding: 10px;
+    }
+  
